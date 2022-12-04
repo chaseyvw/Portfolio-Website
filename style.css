@@ -55,3 +55,41 @@ body {
 
 }
 
+.emailForm {
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.nameEmailInput {
+    width: 200px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 2px solid black;
+    border-radius: 7px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    background-color: white;
+    color: black;
+}
+
+.messageInput {
+    width: 430px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 7px;
+    border:0;
+    background-color: #693f4c;
+    color: white;
+}
