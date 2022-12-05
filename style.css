@@ -12,7 +12,7 @@
 body {
     margin: 0;
     padding: 0 35px;
-    background-color: white;
+    background-color: #dbe4eb;
     text-align: center;
     font-family: Poppins;
 }
@@ -129,7 +129,7 @@ button {
 .wrapper {
     max-width: 1200px;
     position: relative;
-    background-color: #c3c4c9;
+    background-color: #dbe4eb;
 }
 
 .wrapper i {
