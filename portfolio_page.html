@@ -4,76 +4,45 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chasey's Portfolio</title>
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-        <script src="script.js" defer></script>
 
         <!-- FONTS -->
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@200&family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@100&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div class="introContainer">
-            <h1 class="name">Chasey Van Wie</h1>
-            <h3 class="jobTitle">Web Developer</h3>
-        </div>
-        <div class="bodyContainer">
-            <h2>Languages</h2>
-            <!--Carousel will have images of each language/technology
-            HTML CSS JavaScript C# .NET Python-->
-            <div class="wrapper">
-                <i id="left" class="material-symbols-outlined">
-                    arrow_circle_left
-                </i>
-                <div class="carousel">
-                    <img class="languages_image" src="HTML_Image-removebg-preview.png" alt="HTML" draggable="false">
-                    <img class="languages_image" src="CSS_Image-removebg-preview.png" alt="CSS" draggable="false">
-                    <img class="languages_image" src="JavaScript_Image-removebg-preview.png" alt="JavaScript" draggable="false">
-                    <img class="languages_image" src="Csharp_Image-removebg-preview.png" alt="C#" draggable="false">
-                    <img class="languages_image" src="Python_Image-removebg-preview.png" alt="Python" draggable="false">
-                </div>
-                <i id="right" class="material-symbols-outlined">
-                    arrow_circle_right
-                </i>
+        <nav>
+            <li id="home__button"><a title="Home" href="">Home</a></li>
+            <li id="projects__button"><a title="Projects" href="">Projects</a></li>
+            <li id="languages__button"><a title="Languages" href="">Languages</a></li>
+            <li id="resume__button"><a title="Resume" href="">Resume</a></li>
+        </nav>
+        <header>
+            <div class="introduction">
+                <h1 style="font-size: 70px;">Chasey Van Wie</h1>
+                <h3>Web Developer</h3>
             </div>
-            
+            <img src="GEU2NSPr_400x400.jpg" alt="Artist: @pixel_art_girl" class="pixelself__image" id="pixelSelfImage">
+            <div class="aboutme__header">
+                <p>Hi! <img src=""> Here is some background on me before you jump in. I have been coding since I was
+                11 years old and was a big advocate for accessable education on technology within my schools.
+                Once I graduated high school I was ready to bring my skills into the workforce. My first coding job
+                was at an after school education center called theCoderSchool. Here I taught students how to code using
+                a variety of languages. Most recently, I have been interning at a non-profit organization called
+                DeafandHoH.com, LLC as a Web Developer.<br><br>Now I am ready for my next adventure in the field of technology.
+                My goal is to make a difference whether it be big or small and bring positive and memorable experiences
+                to users all over the world.</p>
+            </div>
+        </header>
+        <div class="body__container">
+            <div class="projects__container">
 
+            </div>
+            <div class="languages__container">
 
-            <div class="aboutMeContainer">
-                <img id="aboutMeImage" src="">
-                <div class="aboutMeText">
-                    <h2>About Me!</h2>
-                    <p>I have been coding since I was around 11 and have fiercly advocated
-                        for more accessible coding in our public education systems. I started college
-                        and realized that I wanted to get out into the field and learn by doing.
-                        I got a job at theCoderSchool where I was surrounded by amazing colleagues
-                        who taught me the importance of many concepts and algorithms. After this,
-                        I landed my first internship as a Web Developer, which is where I am now!
-                    </p>
-                </div>
             </div>
-            <!--Previews of each project I have listed-->
-            <div class="projects">
-                <h2>Projects</h2>
-                <!--Carousel? Gallery?-->
-            </div>
-            <div class="emailForm">
-                <h2>Contact Me!</h2>
-                <form action="mailto:chaseyvw@gmail.com">
-                    <input class="nameEmailInput" type="text" placeholder="Name">
-                    <input class="nameEmailInput" type="email" placeholder="Email"><br><br>
-                    <textarea class="messageInput" placeholder="Type your message here."></textarea><br><br>
-                    <button type="submit" value="Submit">Send</button>
-                </form>
-            </div>
-        </div>
-        <div class="footerContainer">
-            <footer>
-                <h3>Check me out on socials!</h3>
-                <div class= "socialLinks"></div>
-                <a href="https://www.linkedin.com/in/chasey-van-wie-6423a4162/"><img src="LinkedInImage-removebg-preview.png" style="width: 10%"></a>
-                <a href="https://github.com/chaseyvw"><img src="GitHubImage-removebg-preview.png" style="width: 10%"></a>
-            </footer>
         </div>
     </body>
 </html>
