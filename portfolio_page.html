@@ -4,6 +4,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Chasey's Portfolio</title>
         <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
 
         <!-- FONTS -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,12 +15,12 @@
     </head>
     <body>
         <nav>
-            <li id="home__button"><a title="Home" href="">Home</a></li>
-            <li id="projects__button"><a title="Projects" href="">Projects</a></li>
-            <li id="languages__button"><a title="Languages" href="">Languages</a></li>
-            <li id="resume__button"><a title="Resume" href="">Resume</a></li>
+            <a id="homeButton" title="Home" href="#home-anchor">Home</a>
+            <a id="projectsButton" title="Projects" href="#projects-anchor">Projects</a>
+            <a title="Languages" href="#languages-anchor">Languages</a>
+            <a title="Resume" href="">Resume</a>
         </nav>
-        <header>
+        <header id="home-anchor">
             <div class="introduction">
                 <h1 style="font-size: 70px;">Chasey Van Wie</h1>
                 <h3>Web Developer</h3>
@@ -37,12 +38,31 @@
             </div>
         </header>
         <div class="body__container">
+            <h2 id="projects-anchor">Projects</h2>
+            <p>Projects I have created to help showcase my skillset.</p>
             <div class="projects__container">
-
+                <a href="https://github.com/chaseyvw/Pricing-Component"><img class="projects__images" src="Pricing Component.png" alt="Pricing Component"></a>
+                <img class="projects__images" src="">
+                <img class="projects__images" src="">
             </div>
+            <h2 id="languages-anchor">Languages</h2>
+            <p>Languages that I have working proficiency or higher in.</p>
             <div class="languages__container">
-
+                <img class="languages__images" src="HTML_Image.png">
+                <img class="languages__images" src="CSS_Image.png">
+                <img class="languages__images" src="JavaScript_Image.png">
+                <img class="languages__images" src="Python_Image.png">
+                <img class="languages__images" src="Csharp_Image.png">
             </div>
         </div>
+        <footer>
+            <div class="curved">
+                <br><br><a class="email" href="mailto:chaseyvw@gmail.com"><p>chaseyvw@gmail.com</p></a>
+                <h2>Check me out on socials!</h2>
+                <a href="https://github.com/chaseyvw"><img class="socialmedia__images" src="GitHub_Image-removebg-preview.png"></a>
+                <a href="https://www.linkedin.com/in/chasey-van-wie-6423a4162/"><img class="socialmedia__images" src="LinkedIn_Image-removebg-preview.png"></a>
+                <br><a href="#home-anchor"><img class="arrow__image" src="ArrowToTop_Image.png"></a>
+            </div>
+        </footer>
     </body>
 </html>
