@@ -168,3 +168,23 @@ footer h2 {
 .arrow__image {
     width: 150px;
 }
+
+/* RESUME PAGE STYLING */
+
+button {
+    margin-top: 150px;
+    padding: 15px 30px;
+    font-family: 'Space Grotesk';
+    background-color: #E4DFDA;
+    border: 0;
+    border-radius: 12px;
+}
+
+button:hover {
+    background-color: #23967F;
+}
+
+.resume__image {
+    margin-top: 4rem;
+    margin-bottom: 5rem;
+}
