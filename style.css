@@ -25,9 +25,14 @@ nav {
 
 nav a {
     color: #E4DFDA;
-    padding: 25px 10px;
+    padding: 25px 15px;
     text-decoration-line: none;
     font-family: 'Space Grotesk';
+}
+
+nav a:hover {
+    color: #E4DFDA;
+    text-shadow: 1px 1px 2px #E4DFDA;
 }
 
 /* HEADER STYLES */
