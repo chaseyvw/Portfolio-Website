@@ -112,6 +112,7 @@ header .introduction {
 .projects__images {
     border-radius: 50%;
     max-width: 150px;
+    opacity: 100%;
     /*padding: 10px 40px;*/
 }
 
