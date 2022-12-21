@@ -1,6 +1,39 @@
 $("document").ready(function(){
     
 // HOVER FUNCTIONS //    
+    // PROJECTS //
+    // PRICING COMPONENT //
+    $("#pricingComponentImage").mouseenter(function func(){
+        $("#pricingComponentImage").css('opacity', '50%');
+        $("#pricingComponentTitle").css('color', '#E4DFDA');
+    });
+
+    $("#pricingComponentImage").mouseleave(function func(){
+        $("#pricingComponentImage").css('opacity', '100%');
+        $("#pricingComponentTitle").css('color', 'transparent');
+    });
+    // FLORIST WEBSITE //
+    $("#floristWebsiteImage").mouseenter(function func(){
+        $("#floristWebsiteImage").css('opacity', '50%');
+        $("#FloristTitle").css('color', '#E4DFDA');
+    });
+
+    $("#floristWebsiteImage").mouseleave(function func(){
+        $("#floristWebsiteImage").css('opacity', '100%');
+        $("#FloristTitle").css('color', 'transparent');
+    });
+    // PRODUCT PAGE //
+    $("#productPageImage").mouseenter(function func(){
+        $("#productPageImage").css('opacity', '50%');
+        $("#productPageTitle").css('color', '#E4DFDA');
+    });
+
+    $("#productPageImage").mouseleave(function func(){
+        $("#productPageImage").css('opacity', '100%');
+        $("#productPageTitle").css('color', 'transparent');
+    });
+
+    // LANGUAGES //
     // HTML //
     $("#HTMLImage").mouseenter(function func(){
         $("#HTMLImage").css('opacity', '50%');

@@ -94,25 +94,32 @@ header .introduction {
     border-bottom: 4px solid #23967F;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 10rem;
     width: 300px;
 }
 
 /* PROJECTS & LANGUAGES SECTION STYLING */
 
 .projects__container {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 2rem;
-    padding-bottom: 15rem;
     max-width: 700px;
     margin-left: auto;
     margin-right: auto;
 }
 
+.projectsIndivid__container {
+    display: flex;
+    flex-direction: column;
+}
+
 .projects__images {
     border-radius: 50%;
-    max-width: 150px; 
-    /*padding: 10px 40px;*/
+    max-width: 150px;
+    padding: 5px 40px;
 }
 
 .languages__container {
@@ -130,7 +137,6 @@ header .introduction {
 .languagesIndivid__container {
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
 }
 
 .languages__images {
