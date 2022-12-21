@@ -1,5 +1,20 @@
 $("document").ready(function(){
-    
+
+// FIREFLY ANIMATIONS //
+    $.firefly({
+        on:'#home-anchor',
+        total: 90,
+        ofTop: 0,
+        ofLeft: 0,
+        twinkle: 0.2,
+        minPixel: 1,
+        maxPixel: 5,
+        color: '#E4DFDA',
+        namespace: 'jqueryFireFly',
+        zIndex: Math.ceil(Math.random() * 20) - 1,
+        _paused: false
+    });
+
 // HOVER FUNCTIONS //    
     // PROJECTS //
     // PRICING COMPONENT //
