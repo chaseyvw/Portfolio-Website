@@ -116,7 +116,10 @@ header .introduction {
 }
 
 .languages__container {
+    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 2rem;
     padding-bottom: 15rem;
     max-width: 700px;
@@ -124,10 +127,16 @@ header .introduction {
     margin-right: auto;
 }
 
+.languagesIndivid__container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+}
+
 .languages__images {
     border-radius: 50%;
     max-width: 150px;
-    padding: 10px 40px;
+    padding: 5px 40px;
 }
 
 /* FOOTER STYLING */
