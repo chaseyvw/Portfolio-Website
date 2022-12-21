@@ -43,6 +43,9 @@ header {
     display: flex;
     justify-content: center;
     flex-direction: column;
+    background: rgb(10,35,66);
+    background: linear-gradient(0deg, rgba(10,35,66,1) 10%, rgba(2,9,18,1) 100%);
+    padding-bottom: 50px;
 }
 
 header h1 {
