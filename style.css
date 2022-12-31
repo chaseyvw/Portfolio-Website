@@ -131,7 +131,7 @@ header .introduction {
     flex-direction: column;
 }
 
-.projects__images {
+.projects__images { 
     border-radius: 50%;
     max-width: 250px;
     min-width: 150px;
