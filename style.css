@@ -221,13 +221,25 @@ footer h2 {
 
 /* RESUME PAGE STYLING */
 
-button {
-    margin-top: 150px;
-    padding: 15px 30px;
+.resumebody__container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.button__container {
+    border-color: aqua;
+    margin-top: 8em;
     font-family: 'Space Grotesk';
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button {
+    padding: 15px 30px;
     background-color: #E4DFDA;
+    color: #0A2342;
     border: 0;
-    border-radius: 12px;
 }
 
 button:hover {
@@ -237,4 +249,8 @@ button:hover {
 .resume__image {
     margin-top: 4rem;
     margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 90vw;
 }
