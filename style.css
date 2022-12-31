@@ -224,6 +224,7 @@ footer h2 {
 .resumebody__container {
     display: flex;
     flex-direction: column;
+    background-color: #0A2342;
 
 }
 
@@ -240,6 +241,7 @@ button {
     background-color: #E4DFDA;
     color: #0A2342;
     border: 0;
+    border-radius: 12px !important;
 }
 
 button:hover {
@@ -247,10 +249,10 @@ button:hover {
 }
 
 .resume__image {
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-bottom: 5rem;
     margin-left: auto;
     margin-right: auto;
-    min-width: 700px;
-    max-width: 90vw;
+    min-width: 300px;
+    max-width: 700px;
 }
