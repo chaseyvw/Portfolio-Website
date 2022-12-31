@@ -2,7 +2,7 @@ $("document").ready(function(){
 
 // FIREFLY ANIMATIONS //
     $.firefly({
-        on:'#home-anchor',
+        on:'header',
         total: 90,
         ofTop: 0,
         ofLeft: 0,
