@@ -38,10 +38,9 @@ nav a:hover {
 /* HEADER STYLES */
 
 header {
-    height: 100vh;
+    height: min-content;
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     background: rgb(10,35,66);
     background: linear-gradient(0deg, rgba(10,35,66,1) 10%, rgba(2,9,18,1) 100%);
@@ -52,10 +51,20 @@ header h1 {
     font-family: Kanit;
     font-weight: 100;
     letter-spacing: 0.2em;
+    color: #E4DFDA;
+    text-align: center;
+    padding-top: 1.5em;
 }
 
 header h3 {
     font-family: 'Space Grotesk';
+    color: #E4DFDA;
+    text-align: center;
+}
+
+header p {
+    color: #E4DFDA;
+    text-align: center;
 }
 
 header .introduction {
@@ -84,7 +93,10 @@ header .introduction {
 .body__container {
     display: flex;
     justify-content: center;
+    text-align: center;
     flex-direction: column;
+    background-color: #0A2342;
+    color: #E4DFDA;
 }
 
 .body__container p {
@@ -109,7 +121,7 @@ header .introduction {
     flex-wrap: wrap;
     justify-content: center;
     padding-top: 2rem;
-    max-width: 700px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -119,9 +131,10 @@ header .introduction {
     flex-direction: column;
 }
 
-.projects__images {
+.projects__images { 
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 250px;
+    min-width: 150px;
     padding: 5px 40px;
 }
 
@@ -132,7 +145,7 @@ header .introduction {
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 15rem;
-    max-width: 700px;
+    max-width: 900px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -144,7 +157,8 @@ header .introduction {
 
 .languages__images {
     border-radius: 50%;
-    max-width: 150px;
+    max-width: 250px;
+    min-width: 150px;
     padding: 5px 40px;
 }
 
@@ -152,6 +166,9 @@ header .introduction {
 
 footer h2 {
     font-family: Kanit;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 0;
 }
 
 .curved {
@@ -160,11 +177,14 @@ footer h2 {
     width: 100%;
     border-top-left-radius: 200%;
     border-top-right-radius: 200%;
-
+    justify-content: center;
+    text-align: center;
 }
 
 .socialmedia__images {
     width: 75px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .email {
@@ -178,6 +198,8 @@ footer h2 {
     width: 200px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
     font-family: 'Space Grotesk';
 }
 
