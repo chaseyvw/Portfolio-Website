@@ -38,10 +38,9 @@ nav a:hover {
 /* HEADER STYLES */
 
 header {
-    height: 100vh;
+    height: min-content;
     width: 100%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     background: rgb(10,35,66);
     background: linear-gradient(0deg, rgba(10,35,66,1) 10%, rgba(2,9,18,1) 100%);
@@ -52,10 +51,20 @@ header h1 {
     font-family: Kanit;
     font-weight: 100;
     letter-spacing: 0.2em;
+    color: #E4DFDA;
+    text-align: center;
+    padding-top: 1.5em;
 }
 
 header h3 {
     font-family: 'Space Grotesk';
+    color: #E4DFDA;
+    text-align: center;
+}
+
+header p {
+    color: #E4DFDA;
+    text-align: center;
 }
 
 header .introduction {
