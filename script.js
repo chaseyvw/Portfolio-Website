@@ -47,6 +47,15 @@ $("document").ready(function(){
         $("#productPageImage").css('opacity', '100%');
         $("#productPageTitle").css('color', 'transparent');
     });
+    
+    $("#testimonialsGridImage").mouseenter(function func(){
+        $("#testimonialsGridImage").css('opacity', '50%');
+        $("#testemonialsTitle").css('color', '#E4DFDA');
+    });
+    $("#testimonialsGridImage").mouseleave(function func(){
+        $("#testimonialsGridImage").css('opacity', '100%');
+        $("#testemonialsTitle").css('color', 'transparent');
+    });
 
     // LANGUAGES //
     // HTML //
