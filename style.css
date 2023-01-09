@@ -138,9 +138,12 @@ header .introduction {
 
 .projects__images { 
     border-radius: 50%;
-    max-width: 250px;
-    min-width: 150px;
-    padding: 5px 40px;
+    height: 200px;
+    width: 200px;
+    margin: 5px 40px;
+    object-fit: cover;
+    image-rendering: optimizeQuality;
+    box-shadow: 3px 3px 3px rgba(2,9,18,1);
 }
 
 .languages__container {
@@ -162,9 +165,10 @@ header .introduction {
 
 .languages__images {
     border-radius: 50%;
-    max-width: 250px;
-    min-width: 150px;
-    padding: 5px 40px;
+    width: 200px;
+    height: 200px;
+    margin: 5px 40px;
+    box-shadow: 3px 3px 3px rgba(2,9,18,1);
 }
 
 /* FOOTER STYLING */
