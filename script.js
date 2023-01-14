@@ -109,4 +109,7 @@ $("document").ready(function(){
         $("#CSharpTitle").css('color', 'transparent');
     });
 
+// CAROUSEL CODE //
+
 });
+
