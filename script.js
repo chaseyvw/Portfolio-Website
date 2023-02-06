@@ -27,6 +27,16 @@ $("document").ready(function(){
         $("#pricingComponentImage").css('opacity', '100%');
         $("#pricingComponentTitle").css('color', 'transparent');
     });
+     // LEAP FORWARD WEBSITE //
+     $("#LeapForwardImage").mouseenter(function func(){
+        $("#LeapForwardImage").css('opacity', '50%');
+        $("#LeapForwardTitle").css('color', '#E4DFDA');
+    });
+
+    $("#LeapForwardImage").mouseleave(function func(){
+        $("#LeapForwardImage").css('opacity', '100%');
+        $("#LeapForwardTitle").css('color', 'transparent');
+    });
     // FLORIST WEBSITE //
     $("#floristWebsiteImage").mouseenter(function func(){
         $("#floristWebsiteImage").css('opacity', '50%');
