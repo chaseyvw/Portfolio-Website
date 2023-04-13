@@ -21,6 +21,7 @@ nav {
     flex-direction: row;
     justify-content: center;
     background-color: #23967F;
+    z-index: 9 !important;
 }
 
 nav a {
