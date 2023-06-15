@@ -1,0 +1,165 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #0A2342;
+    color: #E4DFDA;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #23967F;
+    z-index: 1 !important;
+}
+
+nav a {
+    color: #E4DFDA; 
+    padding: 25px 15px;
+    text-decoration-line: none;
+    font-family: 'Space Grotesk';
+}
+
+nav a:hover {
+    color: #E4DFDA;
+    text-shadow: 1px 1px 2px #E4DFDA;
+}
+
+.body-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    background: rgb(10,35,66);
+    background: linear-gradient(0deg, rgba(10,35,66,1) 40%, rgba(2,9,18,1) 100%);
+    min-height: 100vh;
+    width: 100%;
+}
+
+.body-container h1 {
+    padding-top: 10rem;
+    padding-bottom: 3rem;
+    font-family: 'Kanit';
+    font-weight: bold;
+    color: #E4DFDA;
+}
+
+.body-container p {
+    font-family: 'Space Grotesk' !important ;
+    color: #E4DFDA;
+    width: 70%;
+}
+
+.view-this-project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin-top: 3rem;
+}
+
+.view-project-images img{
+    width: 70px;
+}
+
+.project-examples-container {
+    margin-top: 4rem;
+    margin-bottom: 6rem;
+    max-width: 60%;
+    height: min-content;
+}
+
+.examples {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 3rem;
+    margin: 5rem 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.examples img {
+    width: 60%;
+    border-radius: 15px;
+}
+
+.examples p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#example1 {
+    margin-top: 0;
+}
+
+#example3 {
+    margin-bottom: 0;
+}
+
+/* FOOTER STYLING */
+footer h2 {
+    font-family: Kanit;
+    text-align: center;
+    padding-top: 0;
+    margin-top: 1em !important;
+    color: #E4DFDA;
+}
+
+footer {
+    width: 100%;
+}
+
+.curved {
+    background-color: #23967F;
+    height: fit-content;
+    width: 100% !important;
+    border-top-left-radius: 200%;
+    border-top-right-radius: 200%;
+    justify-content: center;
+    text-align: center;
+}
+
+.socialmedia__images {
+    width: 85px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.email {
+    text-decoration: none;
+    color: #0A2342;
+
+}
+
+.email p {
+    border-bottom: 4px solid #23967F;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-family: 'Space Grotesk';
+}
+
+.email p:hover {
+    border-bottom: 4px solid #0A2342;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.arrow__image {
+    width: 150px;
+}
+
+
