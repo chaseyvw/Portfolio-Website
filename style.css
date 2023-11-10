@@ -367,3 +367,20 @@ button:hover {
     padding-bottom: 20px;
     gap: 10px;
 }
+
+.main-404-container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-404-container {
+    width: 60%;
+}
+
+.img-404-container {
+    width: 30%;
+}
