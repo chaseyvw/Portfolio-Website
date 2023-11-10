@@ -1,3 +1,14 @@
+/*
+COLORS:
+----------------
+Floral White - #FFFBFF
+Blue (Musell) - #588157
+Van Dyke - #523F38
+Bistre - #362417
+Snow - #FFFBFF\
+Green - #588157
+*/
+
 html {
     scroll-behavior: smooth;
 }
@@ -5,10 +16,14 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #212529 !important;
+    background-color: #FFFBFF !important;
 }
 
-h3, p, a, li {
+h3, h2 {
+    font-family: 'Prata', serif;
+}
+
+p, a, li {
     font-family: 'Barlow', sans-serif;
 }
 
@@ -20,26 +35,22 @@ a:hover {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    color: white;
+    color: #362417;
     padding: 5%;
     width: 100%;
-}
-
-.main-divs:nth-child(odd) {
-    background-color: #343A40;
 }
 
 nav {
     display: flex;
     justify-content: center;
-    background-color: #212529;
-    color: white;
+    background-color: #FFFBFF;
+    color: #362417;
     padding-top: 2rem;
     padding-bottom: 1rem;
 }
 
 nav ul a {
-    color: white;
+    color: #362417;
     text-decoration: none;
 }
 
@@ -97,8 +108,8 @@ nav ul a li:hover {
 
 button {
     background-color: transparent;
-    border: solid 1px #84e1bc;
-    color: #84e1bc;
+    border: solid 1px #588157;
+    color: #588157;
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 10px;
@@ -108,14 +119,93 @@ button {
 }
 
 button:hover {
-    background-color: #84e1bc;
-    color: #343A40;
+    background-color: #588157;
+    color: #FFFBFF;
     transition: 0.5s;
 }
 
+.learn-more-anchor {
+    display: inline-block;
+    position: relative;
+    color: #588157;
+}
+
+.learn-more-anchor::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #588157;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.learn-more-anchor:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-animation {
+    display: inline-block;
+    position: relative;
+    color: #362417;
+}
+
+.nav-animation::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #362417;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.nav-animation:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 .what-im-great-at-section {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 50px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.what-im-great-at-section-child {
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #588157;
+    transition: 0.3s;
+    display: flex; flex-direction: column; align-items: center; justify-content: center;
+    
+}
+
+.what-im-great-at-section-child:hover {
+    box-shadow: 5px 5px 5px 5px #ebe6eb;
+    transition: 0.3s;
+}
+
+@media screen and (max-width: 645px) {
+    .what-im-great-at-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        gap: 50px;
+        max-width: 1000px;
+        margin: auto;
+    }
 }
 
 .good-at-card-section {
@@ -211,3 +301,50 @@ button:hover {
     grid-column: 2;
     grid-row: 2;
 }
+
+.about-me-main-div {
+    display: flex; 
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+.about-me-main-txt {
+    width: 100%;
+    max-width: 700px;
+    text-align: center;
+}
+
+#left-star-about-me {
+    position: absolute; 
+    width: 50px; top: 100px; 
+    transform: translateX(110px); 
+    rotate: 180deg; image-orientation: flip;
+}
+
+#right-star-about-me {
+    position: absolute; 
+    width: 50px; 
+    top: 100px; 
+    transform: translateX(110px);
+}
+
+@media screen and (max-width: 1350px) {
+    #left-star-about-me {
+        top: 50px; 
+    }
+    
+    #right-star-about-me {
+        top: 50px; 
+    }
+} 
+
+@media screen and (max-width: 550px) {
+    #left-star-about-me {
+        top: 20px; 
+    }
+    
+    #right-star-about-me {
+        top: 20px; 
+    }
+} 

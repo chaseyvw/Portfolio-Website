@@ -6,6 +6,8 @@
         <title>Chasey - UI Dev</title>
         <link rel="shortcut icon" href="Images/"/> <!--IMAGE DISPLAYED ON TAB-->
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
         <script src="JQuery/jquery.js" type="text/javascript" language="JavaScript"></script>
         <script src="script.js" type="text/javascript" language="JavaScript"></script>
@@ -21,84 +23,88 @@
     <body>
         <nav>
             <ul style="display: flex; flex-direction: row; padding-left: 0;">
-                <a><li>Home</li></a>
-                <a href=""><li>Resume</li></a>
-                <a href="#aboutMeAnchor"><li>About Me</li></a>
-                <a href="#"><li>Contact</li></a>
+                <a href=""><li class="nav-animation">Home</li></a>
+                <a href=""><li class="nav-animation">Resume</li></a>
+                <a href="#aboutMeAnchor"><li class="nav-animation">About Me</li></a>
+                <a href="#"><li class="nav-animation">Contact</li></a>
             </ul>
         </nav>
 
         <div class="intro-section main-divs">
             <div class="intro-left-column intro-section-boxes" style="text-align: left;">
                 <div>
-                <h3 style="font-size: xxx-large;">Chasey Van Wie<span style="color: #84e1bc;">.</span></h3>
+                <h3 style="font-size: xxx-large;">Chasey Van Wie<span style="color: #588157;">.</span></h3>
                 <p>LinkedIn | Github | Email</p>
                 <a><button>Contact Me</button></a>
                 </div>
             </div>
             <div class="intro-middle-column intro-section-boxes" style="display: flex; flex-direction: row; align-items: center;">
-                <img src="Images/intro-image (2).png" style="max-width: 100%; min-width: 196px;">
+                <img src="https://media1.giphy.com/media/hsmOziwNupSevnr0kw/giphy.gif?cid=6c09b952hb2x631101imuibi4y786btv0ymkz22jfo8mlqse&ep=v1_stickers_related&rid=giphy.gif&ct=s" style="max-width: 100%; min-width: 196px;">
             </div>
             <div class="intro-right-column intro-section-boxes" style="text-align: left;">
                 <div>
-                <p style="color: #84e1bc;">Hello there!</p>
+                <p style="color: #588157;">Hello there!</p>
                 <h3 style="font-size: xxx-large;">UI/Frontend Developer</h3>
-                <p>Making web projects since 2016</p>
-                <a href="#learn-more-anchor" style="color: #84e1bc; text-decoration: none;"><p>Learn more &darr;</p></a> <!--This will be the accent color & Link to anchor-->
+                <p>Making web projects since 2015</p>
+                <a href="#learn-more-anchor" style="color: #588157; text-decoration: none;"><p class="learn-more-anchor">Learn more &darr;</p></a> <!--This will be the accent color & Link to anchor-->
                 </div>
             </div>
         </div>
 
+        <div id="learn-more-anchor" class="great-at-intro-text" style="text-align: center;">
+            <p style="color: #588157;">Just some...</p>
+            <h2 style="line-height: 0.5;">Things I'm Good At</h2><br/>
+            <p>Here are some skills that I have picked up over the course of my studies and career.</p>
+            <div style="width: 400px; max-width: 70%; height: 3px; background-color: #588157; margin: auto;"></div>
+        </div>
         <div class="what-im-great-at-section main-divs">
-            <div id="learn-more-anchor" class="great-at-intro-text" style="text-align: center;">
-                <p style="color: #84e1bc;">Just some...</p>
-                <h2 style="line-height: 0;">Things I'm Good At</h2><br/>
-                <p>Here are some skills that I have picked up over the course of my studies and career.</p>
+            <div class="what-im-great-at-section-child">
+                <h3>CMS</h3>
+                <p>I am knowledgeable in multiple cms systems such as Shopify, Eloqua, Drupal, Wordpress, and Wix.</p>
             </div>
-            <div class="good-at-card-section">
-                <div class="good-at-card">
-                    <img src="Images/1.png"><br/>
-                    <p>I am knowledgeable in multiple cms systems such as
-                        Shopify, Eloqua, Drupal, Wordpress, and Wix.
-                    </p>
-                </div>
-                <div class="good-at-card">
-                    <img src="Images/2.png"><br/>
-                    <p>I have capabilities for both frontend and backend 
-                        web developement. My expertise lies in frontend
-                        development. 
-                    </p>
-                </div>
-                <div class="good-at-card">
-                    <img src="Images/3.png"><br/>
-                    <p>Here is a list of some frameworks that I am knowledgable in: 
-                        jQuery, Drupal, and Bootstrap
-                    </p>
-                </div>
-                <div class="good-at-card">
-                    <img src="Images/4.png"><br/>
-                    <p>Some languages that I am knowledgable in: 
-                        HTML, CSS, JavaScript, Python, C# and C++
-                    </p>
-                </div>
+            <div class="what-im-great-at-section-child">
+                <h3>Web Development</h3>
+                <p>I have capabilities for both frontend and backend web developement. My expertise lies in frontend development.</p>
+            </div>
+            <div class="what-im-great-at-section-child">
+                <h3>Frameworks</h3>
+                <p>Here is a list of some frameworks that I am knowledgable in: jQuery, Drupal, and Bootstrap.</p>
+            </div>
+            <div class="what-im-great-at-section-child">
+                <h3>CMS</h3>
+                <p>Some languages that I am knowledgable in: HTML, CSS, JavaScript, Python, C# and C++.</p>
             </div>
         </div>
 
-        <div class="main-divs">
+        <div class="main-divs about-me-main-div">
+            <img id="left-star-about-me" src="https://media1.giphy.com/media/hsmOziwNupSevnr0kw/giphy.gif?cid=6c09b952hb2x631101imuibi4y786btv0ymkz22jfo8mlqse&ep=v1_stickers_related&rid=giphy.gif&ct=s">
+            <img id="right-star-about-me" src="https://media1.giphy.com/media/hsmOziwNupSevnr0kw/giphy.gif?cid=6c09b952hb2x631101imuibi4y786btv0ymkz22jfo8mlqse&ep=v1_stickers_related&rid=giphy.gif&ct=s">
             <div id="aboutMeAnchor" class="about-me-intro-txt" style="text-align: center;">
-                <p style="color: #84e1bc;">Some things</p>
-                <h2 style="line-height: 0;">About Me</h2><br/>
+                <p style="color: #588157;">Some things</p>
+                <h2 style="line-height: 0.5;">About Me</h2><br/>
+            </div>
+            <div class="about-me-main-txt">
+                <p>
+                    I have been coding since I was 11 years old and was a big advocate for accessable education on technology within my schools. 🎓 
+                    Once I graduated high school I was ready to bring my skills into the workforce. My first coding job was at an after school education center called theCoderSchool. 
+                    Here I taught students how to create their own web development projects using a variety of languages. 
+                    After that, I started interning at a non-profit organization called DeafandHoH.com, LLC as a Web Developer. 💻 
+                    They started a new startup and transfered me over there to lead their web development for Leap Forward.
+                    <br /><br />
+                    I am currently working as a Junior UI Developer for a fortune 500 company called Fluke. I am always ready for a new adventure in the field of technology. 
+                    My goal is to make a difference whether it be big or small and bring positive and memorable experiences to users all over the world. 🌎
+                </p>
             </div>
         </div>
 
         <div class="portfolio-projects main-divs">
             <div class="portfolio-intro-section">
-                <p style="color: #84e1bc;">Portfolio</p>
-                <h2 style="line-height: 0;">My Project Collection</h2><br/>
+                <p style="color: #588157;">Portfolio</p>
+                <h2 style="line-height: 0.5;">My Project Collection</h2><br/>
                 <p>Below are a handful of projects that I have created or
                     been a part of over the course of my career and studies.<br/>For more
                     projects you can visit my 
-                    <a style="color: #84e1bc;">github</a>.
+                    <a style="color: #588157;">github</a>.
                 </p>
             </div>
                 <!--List of projects to include:
