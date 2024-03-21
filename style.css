@@ -16,7 +16,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: #FFFBFF !important;
+    background-color: #F8F8F8 !important;
 }
 
 h3, h2 {
@@ -70,7 +70,7 @@ nav ul a li:hover {
 .intro-section-boxes {
     margin: 1%;
     padding: 2%;
-    width: 33.333%;
+    width: 50%;
     justify-content: center;
 }
 
