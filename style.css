@@ -15,7 +15,7 @@ html {
 body {
     margin: 0;
     padding: 0;
-    background-color: # !important;
+    background-color: #FEFEFE !important;
 }
 
 h3, h2 {
@@ -42,7 +42,7 @@ a:hover {
 nav {
     display: flex;
     justify-content: center;
-    background-color: #5F758E;
+    background-color: #4A2545;
     color: #FFFAFF;
     padding-top: 2rem;
     padding-bottom: 1rem;
@@ -107,27 +107,27 @@ nav ul a li:hover {
 }
 
 button {
-    background-color: transparent;
-    border: solid 1px #79303a;
-    color: #8E3B46;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
+    background-image: linear-gradient(to bottom, #003844, #4A2545);
+    color: #FEFEFE;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border: none;
+    border-radius: 5px !important;
     font-weight: bold;
     transition: 0.5s;
 }
 
 button:hover {
-    background-color: #8E3B46;
-    color: #FFFBFF;
+    background-image: linear-gradient(to bottom, #4A2545, #003844);
     transition: 0.5s;
 }
 
 .learn-more-anchor {
     display: inline-block;
     position: relative;
-    color: #8E3B46;
+    color: #4A2545;
 }
 
 .learn-more-anchor::after {
@@ -138,7 +138,7 @@ button:hover {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #8E3B46;
+    background-color: #4A2545;
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
@@ -186,7 +186,7 @@ button:hover {
     text-align: center;
     padding: 20px;
     border-radius: 10px;
-    border: 1px solid #5F758E;
+    border: 1px solid #4A2545;
     transition: 0.3s;
     display: flex; flex-direction: column; align-items: center; justify-content: center;
     
@@ -225,7 +225,7 @@ button:hover {
 .good-at-card img {
     width: 100%;
     height: auto;
-    box-shadow: 1px 1px 10px #212529;
+    box-shadow: 1px 1px 10px #4A2545;
 }
 
 .good-at-card p {
@@ -277,7 +277,7 @@ button:hover {
 .portfolio-projects-child {
     text-align: center;
     display: flex; flex-direction: column; align-items: center;
-    border: 1px solid #5F758E;
+    border: 1px solid #4A2545;
     border-radius: 10px;
     padding: 20px;
     transition: 0.5s;
